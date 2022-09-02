@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/nest-home/static/css/main.7a110c3f.css",
+    "main.js": "/nest-home/static/js/main.d42883ea.js",
+    "static/media/landing.png": "/nest-home/static/media/landing.a6a358e6af9aee3a796c.png",
+    "static/media/CaviarDreams-Italic.svg": "/nest-home/static/media/CaviarDreams-Italic.93e344485489044b1d14.svg",
+    "static/media/CaviarDreams-Regular.svg": "/nest-home/static/media/CaviarDreams-Regular.3189ce47b8e07beb4311.svg",
+    "static/media/CaviarDreams-Bold.svg": "/nest-home/static/media/CaviarDreams-Bold.b9525c6ab55cbe9d5205.svg",
+    "static/media/CaviarDreams-BoldItalic.svg": "/nest-home/static/media/CaviarDreams-BoldItalic.23f2937b5f67e2a17bd3.svg",
+    "static/media/CaviarDreams-Italic.eot": "/nest-home/static/media/CaviarDreams-Italic.5759df705cdba8f5a5b8.eot",
+    "static/media/CaviarDreams-Italic.ttf": "/nest-home/static/media/CaviarDreams-Italic.596d53309714869af4bf.ttf",
+    "static/media/CaviarDreams-BoldItalic.ttf": "/nest-home/static/media/CaviarDreams-BoldItalic.c1183b53f0c2492825e9.ttf",
+    "static/media/CaviarDreams-Regular.eot": "/nest-home/static/media/CaviarDreams-Regular.8800400fa0e57eec0e2e.eot",
+    "static/media/CaviarDreams-Regular.ttf": "/nest-home/static/media/CaviarDreams-Regular.5bd5535cecfe662466ee.ttf",
+    "static/media/CaviarDreams-Bold.ttf": "/nest-home/static/media/CaviarDreams-Bold.ef10e3aaa2786eda8971.ttf",
+    "static/media/CaviarDreams-Italic.woff": "/nest-home/static/media/CaviarDreams-Italic.8e98f8f65db504cbc465.woff",
+    "static/media/CaviarDreams-BoldItalic.woff": "/nest-home/static/media/CaviarDreams-BoldItalic.8443734c6d924d468065.woff",
+    "static/media/CaviarDreams-Bold.woff": "/nest-home/static/media/CaviarDreams-Bold.32cad8999200c42122bd.woff",
+    "static/media/CaviarDreams-Regular.woff": "/nest-home/static/media/CaviarDreams-Regular.ed45a6d5244986a875d9.woff",
+    "static/media/CaviarDreams-BoldItalic.eot": "/nest-home/static/media/CaviarDreams-BoldItalic.a806ad55b53732f9374b.eot",
+    "static/media/CaviarDreams-Bold.eot": "/nest-home/static/media/CaviarDreams-Bold.17ee6347c6fff9a95906.eot",
+    "static/media/CaviarDreams-Italic.woff2": "/nest-home/static/media/CaviarDreams-Italic.75b7fb84dcacecdb2e34.woff2",
+    "static/media/CaviarDreams-BoldItalic.woff2": "/nest-home/static/media/CaviarDreams-BoldItalic.d39ce9ccae8723ba0a08.woff2",
+    "static/media/CaviarDreams-Bold.woff2": "/nest-home/static/media/CaviarDreams-Bold.c5736f92291f0ecd1489.woff2",
+    "static/media/CaviarDreams-Regular.woff2": "/nest-home/static/media/CaviarDreams-Regular.dbebad05f95d182f5ee7.woff2",
+    "index.html": "/nest-home/index.html",
+    "main.7a110c3f.css.map": "/nest-home/static/css/main.7a110c3f.css.map",
+    "main.d42883ea.js.map": "/nest-home/static/js/main.d42883ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a110c3f.css",
+    "static/js/main.d42883ea.js"
+  ]
+}
