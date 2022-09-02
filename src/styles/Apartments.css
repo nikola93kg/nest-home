@@ -1,0 +1,52 @@
+.apartments {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.apartments__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apartments__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 10px;
+}
+.apartments__item .head {
+  padding: 20px 0;
+}
+.apartments__item h3 {
+  font-family: "Caviar Dreams", arial;
+}
+.apartments__item .head p {
+  margin-top: 10px;
+  line-height: 1.2rem;
+}
+.apartments__item .head p:last-child {
+  background-color: #beccbf;
+  background-color: #d1964c;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.apartments__item img {
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+}
+.apartments__item .body {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 20px;
+  border-radius: 5px;
+}

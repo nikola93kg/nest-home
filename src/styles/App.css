@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.home,
+.about,
+.gallery,
+.contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.about {
+  /* background-image: url("/images/img-2.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 100px;
+}
+
+.gallery {
+  /* background-image: url("/images/img-1.jpg"); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 100px;
+}
+
+.contact {
+  /* background-image: url("/images/img-8.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 100px;
+}
+hr {
+  width: 50% !important;
+  margin-bottom: 50px !important;
+  text-align: center !important;
+  margin: 0 auto;
+  opacity: 0.1;
+  border-color: #242424 !important;
+}
+.hr-max-width {
+  width: 90% !important;
+  margin-bottom: 0 !important;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Caviar Dreams", arial;
+  font-family: "Baloo Tamma 2", cursive;
+
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+h2 {
+  font-family: "Baloo Tamma 2", cursive;
+  padding-bottom: 20px;
+}
