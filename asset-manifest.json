@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/nest-home/static/css/main.7a110c3f.css",
-    "main.js": "/nest-home/static/js/main.d42883ea.js",
+    "main.css": "/nest-home/static/css/main.f52af29d.css",
+    "main.js": "/nest-home/static/js/main.b851cb36.js",
     "static/media/landing.png": "/nest-home/static/media/landing.a6a358e6af9aee3a796c.png",
+    "static/media/bckgr.jpg": "/nest-home/static/media/bckgr.5ca4abe0e1083d0edc1f.jpg",
     "static/media/CaviarDreams-Italic.svg": "/nest-home/static/media/CaviarDreams-Italic.93e344485489044b1d14.svg",
     "static/media/CaviarDreams-Regular.svg": "/nest-home/static/media/CaviarDreams-Regular.3189ce47b8e07beb4311.svg",
     "static/media/CaviarDreams-Bold.svg": "/nest-home/static/media/CaviarDreams-Bold.b9525c6ab55cbe9d5205.svg",
@@ -24,11 +25,11 @@
     "static/media/CaviarDreams-Bold.woff2": "/nest-home/static/media/CaviarDreams-Bold.c5736f92291f0ecd1489.woff2",
     "static/media/CaviarDreams-Regular.woff2": "/nest-home/static/media/CaviarDreams-Regular.dbebad05f95d182f5ee7.woff2",
     "index.html": "/nest-home/index.html",
-    "main.7a110c3f.css.map": "/nest-home/static/css/main.7a110c3f.css.map",
-    "main.d42883ea.js.map": "/nest-home/static/js/main.d42883ea.js.map"
+    "main.f52af29d.css.map": "/nest-home/static/css/main.f52af29d.css.map",
+    "main.b851cb36.js.map": "/nest-home/static/js/main.b851cb36.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a110c3f.css",
-    "static/js/main.d42883ea.js"
+    "static/css/main.f52af29d.css",
+    "static/js/main.b851cb36.js"
   ]
 }
