@@ -159,4 +159,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer-subscription {
+    width: 100%;
+  }
 }

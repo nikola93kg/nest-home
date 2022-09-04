@@ -10,7 +10,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  width: 0px;
+  /* width: 0px; */
 }
 
 /* Track */
@@ -49,12 +49,13 @@ body {
 }
 
 .gallery {
-  /* background-image: url("/images/img-1.jpg"); */
+  background-image: url("https://i.ibb.co/pd11Phg/bckgr.jpg");
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #000;
-  font-size: 100px;
+  background-attachment: fixed;
+  /* color: #000;
+  font-size: 100px; */
 }
 
 .contact {

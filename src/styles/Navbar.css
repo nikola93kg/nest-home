@@ -94,6 +94,10 @@
     position: relative;
   }
 
+  .navbar-logo img {
+    height: 40px;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -106,6 +110,10 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
+  .nav-item {
+    height: fit-content;
+    padding: 10px 0;
+  }
 
   .nav-menu.active {
     background: #242222;
@@ -117,14 +125,17 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    height: 100%;
     width: 100%;
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: #d1964c;
     color: #242424;
+    /* color: #d1964c; */
     border-radius: 0;
   }
 

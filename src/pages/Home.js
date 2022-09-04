@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Apartments from '../components/Apartments'
 import Button from '../components/Button'
 import '../styles/Home.css'
+import MiddleSection from '../components/MiddleSection'
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <>
             <HeroSection />
             <Apartments />
+            <MiddleSection />
             <Cards />
             <hr className='hr-max-width' />
             <div className="contact-us">

@@ -5,7 +5,7 @@ import '../styles/Cards.css'
 function Cards() {
     return (
         <div className="cards" id="cards">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+            <h1>Ovo bi  mogao da prebacis u galeriju</h1>
             <hr />
             <div className="cards__container">
                 <div className="cards__wrapper">
