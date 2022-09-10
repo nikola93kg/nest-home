@@ -32,11 +32,8 @@ body {
 .about,
 .gallery,
 .contact {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+  min-height: 90vh;
+  min-height: calc(100vh - 80px);
 }
 
 .about {
@@ -49,7 +46,8 @@ body {
 }
 
 .gallery {
-  background-image: url("https://i.ibb.co/pd11Phg/bckgr.jpg");
+  background-image: linear-gradient(180deg, #fff, #fff9),
+    url("https://i.ibb.co/pd11Phg/bckgr.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
