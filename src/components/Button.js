@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Button({ children, type, onClick, buttonStyle, buttonSize }) {
 
-    const STYLES = ['btn--primary', 'btn--outline', 'btn--black', 'btn--orange'];
+    const STYLES = ['btn--primary', 'btn--outline', 'btn--black', 'btn--orange', 'carousel-btn'];
     const SIZES = ['btn--medium', 'btn--large'];
 
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]

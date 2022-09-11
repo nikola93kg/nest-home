@@ -1,10 +1,10 @@
 import React from 'react'
-import Cards from '../components/Cards'
 import HeroSection from '../components/HeroSection'
 import Apartments from '../components/Apartments'
 import Button from '../components/Button'
 import '../styles/Home.css'
 import MiddleSection from '../components/MiddleSection'
+import Carousel from '../components/Carousel'
 
 
 function Home() {
@@ -12,14 +12,11 @@ function Home() {
         <>
             <HeroSection />
             <Apartments />
-            <MiddleSection />
-            <Cards />
-            <hr className='hr-max-width' />
-            <div className="contact-us">
-                <h1>Želite da nas kontaktirate?</h1>
-                <h2>Pišite nam odmah!</h2>
-                <Button className='btns' buttonStyle='btn--orange' buttonSize='btn--large'>Kontakt</Button>
-            </div>
+            <MiddleSection heading='Lorem ipsum dolor sit amat' text='random text koji treba smisliti' />
+            <Carousel />
+            <MiddleSection heading='Želite da nas kontaktirate?' text='Pišite nam odmah!'
+                button={<Button className='btns' buttonStyle='btn--orange' buttonSize='btn--large'>Kontakt</Button>}
+            />
         </>
     )
 }

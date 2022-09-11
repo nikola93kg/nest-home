@@ -1,12 +1,5 @@
 @import "../../node_modules/npm-font-caviar-dreams/caviar-dreams.css";
 
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
 .hero-container {
   background-image: linear-gradient(
       180deg,
@@ -120,7 +113,6 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container {
-    border: 1px solid #fff;
     flex-direction: column;
     align-items: center;
     height: 100%;

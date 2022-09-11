@@ -1,13 +1,23 @@
 .middle {
-  height: 200px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../assets/img/bckgr.jpg);
-  background-position: center;
+  background-image: linear-gradient(180deg, #fff9, #000),
+    url("https://images.pexels.com/photos/11680715/pexels-photo-11680715.jpeg");
+  /* background-position: center; */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   color: #e5e1db;
+  padding: 50px 0;
+}
+
+.middle h1 {
+  margin-bottom: 0;
+}
+.middle p {
+  padding-bottom: 30px;
+  font-size: 18px;
 }

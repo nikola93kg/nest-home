@@ -5,10 +5,18 @@
 }
 .btn-container button {
   margin: 0 10px;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
+  font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
+  width: 150px;
+  /* height: 50px; */
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  background-color: #fff;
+  color: #3c4043;
+  fill: currentcolor;
   transition: all 0.4s;
 }
