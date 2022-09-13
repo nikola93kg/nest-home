@@ -1,0 +1,25 @@
+.contact {
+    background-image: linear-gradient(180deg, #fff, #0009),
+     url('https://images.pexels.com/photos/8961555/pexels-photo-8961555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+.contact h1 {
+    padding-top: 50px;
+}
+.contact-container {
+    border: 1px solid #f00;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contact-maps {
+    height: 400px;
+}
+.contact-maps iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

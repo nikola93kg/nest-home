@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
+@import "../../node_modules/npm-font-caviar-dreams/caviar-dreams.css";
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -57,14 +61,6 @@ body {
   font-size: 100px; */
 }
 
-.contact {
-  /* background-image: url("/images/img-8.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #000;
-  font-size: 100px;
-}
 hr {
   width: 50% !important;
   margin-bottom: 50px !important;
@@ -83,15 +79,20 @@ h1 {
   padding-bottom: 20px;
   font-family: "Caviar Dreams", arial;
   font-family: "Baloo Tamma 2", cursive;
+  font-family: 'Poiret One', cursive;
 
   margin-bottom: 20px;
 }
 
 p {
   font-family: "Baloo Tamma 2", cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   font-family: "Baloo Tamma 2", cursive;
   padding-bottom: 20px;
+}
+h3 {
+  font-family: 'Poiret One', cursive;
 }

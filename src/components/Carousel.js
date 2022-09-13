@@ -20,6 +20,7 @@ function Carousel() {
                 cursor: 'grabbing'
             }}>
             <h1>Primeri enterijera</h1>
+            <hr />
             <motion.div drag='x' dragConstraints={{ right: 0, left: -width }} className="inner-carousel">
                 {images.map((image, index) => {
                     return (

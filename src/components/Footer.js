@@ -8,16 +8,16 @@ function Footer() {
         <div className="footer-container">
             {/* <h1 className='footer-heading'>Nest Home Doo</h1> */}
             <section className="footer-content">
-                <div className="footer-logo">
-                    <Link to='/' className="footer-logo">
-                        <img src={logo} alt="" />
+                <div className="footer-logo-container">
+                    <Link to='/' className="footer-link-logo">
+                        <h2 className='footer-logo-h2'>Nest Home</h2>
                     </Link>
                 </div>
                 <div className="footer-info">
-                    <p>Divčibare 14000 Valjevo</p>
-                    <p>Telefon: +381 64 364 0213</p>
-                    <p>Telefon 2: +381 65 247 4733</p>
-                    <p>Email: nesthomedoo@gmail.com</p>
+                    <p>Bitoljska bb 14000 Valjevo</p>
+                    <p> <a href='tel:+381 64 364 0213'>Telefon: +381 64 364 0213</a> </p>
+                    <p> <a href='tel:+381 65 247 4733'>Telefon 2: +381 65 247 4733</a> </p>
+                    <p> <a href='mailto:nesthomedoo@gmail.com'> Email: nesthomedoo@gmail.com</a></p>
                 </div>
             </section>
             <section className="social-media">
