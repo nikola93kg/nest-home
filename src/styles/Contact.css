@@ -9,11 +9,26 @@
     padding-top: 50px;
 }
 .contact-container {
-    border: 1px solid #f00;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     height: 500px;
-    width: 900px;
+    width: 1000px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    /* padding: 20px; */
+    border-radius: 5px;
+}
+.contact-left {
+    width: 600px;
+    background-image: linear-gradient(180deg, #fff9, #0009), url('https://images.pexels.com/photos/8961401/pexels-photo-8961401.jpeg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contact-right {
+    width: 100%;
 }
 .contact-maps {
     height: 400px;
