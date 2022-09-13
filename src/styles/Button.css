@@ -1,6 +1,7 @@
 :root {
   --primary: #fff;
   --secondary: #d1964c;
+  --secondary-opacity: #d1954c44;
 }
 .btn {
   padding: 5px 20px;
@@ -32,7 +33,7 @@
   border: 1px solid #000;
 }
 .btn--outline {
-  background-color: transparent;
+  background-color: var(--secondary-opacity);
   color: var(--primary);
   padding: 8px 20px;
   border: 1px solid var(--primary);

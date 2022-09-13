@@ -19,7 +19,7 @@ function Carousel() {
             whileTap={{
                 cursor: 'grabbing'
             }}>
-            <h1>Primeri apartmana</h1>
+            <h1>Primeri enterijera</h1>
             <motion.div drag='x' dragConstraints={{ right: 0, left: -width }} className="inner-carousel">
                 {images.map((image, index) => {
                     return (

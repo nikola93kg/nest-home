@@ -21,3 +21,12 @@
 .contact-us h3 {
   padding-bottom: 30px;
 }
+.middle .btn--orange {
+  border: none;
+}
+.middle .btn--orange:hover {
+  background: none;
+  background: #d1954c44;
+  color: #fff;
+  outline: 1px solid #d1964c;
+}

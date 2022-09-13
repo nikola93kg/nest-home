@@ -15,7 +15,7 @@ function Home() {
             <MiddleSection heading='Lorem ipsum dolor sit amat' text='random text koji treba smisliti' />
             <Carousel />
             <MiddleSection heading='Želite da nas kontaktirate?' text='Pišite nam odmah!'
-                button={<Button className='btns' buttonStyle='btn--orange' buttonSize='btn--large'>Kontakt</Button>}
+                button={<Button className='btns home-btn' buttonStyle='btn--orange' buttonSize='btn--large'>Kontakt</Button>}
             />
         </>
     )

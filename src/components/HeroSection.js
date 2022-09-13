@@ -6,7 +6,7 @@ import 'animate.css';
 
 function HeroSection() {
     return (
-        <div className='hero-container'>
+        <div className='hero-container' id='hero'>
             <div className='content'>
                 <div className='info'>
                     <h2>Nest Home <br /> <span>Solutions</span></h2>

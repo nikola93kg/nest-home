@@ -38,7 +38,8 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            <p className="website-rights">© Copyright - nikola93kg 2022.</p>
+            <p className="website-rights">© Copyright -
+                <a href='https://nikola93kg.github.io/' target='_blank'> nikola93kg </a> 2022.</p>
         </div>
     )
 }
