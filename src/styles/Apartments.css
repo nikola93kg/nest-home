@@ -62,3 +62,14 @@
     margin-bottom: 50px;
   }
 }
+@media screen and (max-width: 1536px) {
+  .apartments {
+    padding: 120px 0 120px 0 !important;
+    /* padding: 100px 0 !important; */
+    /* border: 1px solid #f00; */
+  }
+  .apartments__item img {
+    width: 170px;
+    height: 170px;
+  }
+}

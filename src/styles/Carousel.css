@@ -27,3 +27,15 @@
   width: 90%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1536px) {
+  .carousel-item {
+    min-height: 20rem;
+    min-width: 20rem;
+    padding: 20px;
+  }
+  .carousel {
+    max-width: 1040px;
+    padding: 120px 0 90px 0;
+  }
+}
