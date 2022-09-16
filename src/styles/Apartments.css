@@ -50,6 +50,7 @@
   padding: 20px;
   border-radius: 5px;
 }
+
 @media screen and (max-width: 768px) {
   .apartments {
     width: 100%;
@@ -61,7 +62,21 @@
   .apartments__item {
     margin-bottom: 50px;
   }
+  .apartments__item .head p:last-child {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .apartments__item .body {
+    width: 300px;
+    height: 300px;
+  }
+  .apartments__item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: scale-down;
+  }
 }
+
 @media screen and (max-width: 1536px) {
   .apartments {
     padding: 120px 0 120px 0 !important;

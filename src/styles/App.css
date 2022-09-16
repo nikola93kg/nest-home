@@ -84,3 +84,7 @@ h2 {
 h3 {
   font-family: "Poiret One", cursive;
 }
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}

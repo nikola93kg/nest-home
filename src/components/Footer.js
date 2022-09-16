@@ -9,9 +9,9 @@ function Footer() {
             {/* <h1 className='footer-heading'>Nest Home Doo</h1> */}
             <section className="footer-content">
                 <div className="footer-logo-container">
-                    <Link to='/' className="footer-link-logo">
+                    <a href='#hero' className="footer-link-logo">
                         <h2 className='footer-logo-h2'>Nest Home</h2>
-                    </Link>
+                    </a>
                 </div>
                 <div className="footer-info">
                     <p>Bitoljska bb 14000 Valjevo</p>

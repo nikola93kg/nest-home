@@ -19,7 +19,7 @@ function HeroSection() {
             <div className="logo-container animate__backInDown">
                 <img src={logo} alt="logo" className='logo' />
             </div>
-        </div >
+        </div>
     )
 }
 

@@ -3,26 +3,31 @@ const menu = [
         id: 1,
         category: '3D prikaz eksterijera',
         img: 'https://i.ibb.co/1L76kCZ/Divcibare-zgrada-3-211128-V1-0000.jpg',
+        desc: 'Lorem ipsum'
     },
     {
         id: 2,
         category: '3D prikaz eksterijera',
         img: 'https://i.ibb.co/4Vm2dFN/Divcibare-zgrada-3-211128-V6-0000.jpg',
+        desc: 'lorem ipsum 2'
     },
     {
         id: 3,
         category: '3D prikaz eksterijera',
         img: 'https://i.ibb.co/t4ZtPXf/Divcibare-zgrada-3-211128-V5-0000.jpg',
+        desc: 'lorem ipsum 3'
     },
     {
         id: 4,
         category: '3D prikaz eksterijera',
         img: 'https://i.ibb.co/K5S6p5Y/Divcibare-zgrada-3-211128-V4-0000.jpg',
+        desc: 'lorem ipsum 4'
     },
     {
         id: 5,
         category: '3D prikaz eksterijera',
         img: 'https://i.ibb.co/8mN9X2j/Divcibare-zgrada-3-211128-V3-0000.jpg',
+        desc: 'Stambeni objekat - Apartmanskog tipa, Divčibare'
     },
 
 

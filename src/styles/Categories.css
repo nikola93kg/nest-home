@@ -20,3 +20,18 @@
   fill: currentcolor;
   transition: all 0.4s;
 }
+
+@media screen and (max-width: 768px) {
+  .btn-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .gallery hr {
+    margin-bottom: 30px !important;
+  }
+  .btn-container button {
+    margin: 10px;
+    width: 50%;
+  }
+}

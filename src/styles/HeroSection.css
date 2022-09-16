@@ -127,8 +127,7 @@
     text-align: center;
   }
   .hero-container .content {
-    /* border: 1px solid #f00; */
-    padding: 50px 100px;
+    padding: 50px;
     max-width: fit-content;
   }
   .logo-container {
@@ -136,12 +135,13 @@
   }
 
   .btn-mobile {
-    display: block;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
   }
 
-  .btn {
-    width: 100%;
+  .hero-btns .btn {
+    width: 50%;
   }
 }
 
@@ -221,9 +221,11 @@
   .content .info p {
     font-size: 14px;
   }
+  
 }
 
 @media (max-width: 560px) {
+  
   .content .info h2 {
     font-size: 35px;
     line-height: 40px;
@@ -238,9 +240,9 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 1536px) {
+@media screen and (min-width: 1920px) {
 .hero-container {
   /* border: 1px solid #f00; */
-  /* align-items: center; */
+  padding: 180px 0;
 }
 }
