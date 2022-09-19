@@ -59,20 +59,8 @@
   font-size: 1.3rem;
 }
 
-.button {
-  background-color: #ff844b;
-  padding: 0.75rem;
-  margin-top: 2rem;
-  display: inline-block;
-  color: #fff9;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: 0.4s all;
-}
-.button:hover {
-  text-decoration: none;
-  color: #fff;
-}
+
+
 
 .modal {
   width: 100%;
@@ -119,6 +107,30 @@
   background-color: #0004;
   color: #fff;
   cursor: pointer;
+}
+.pics-modal .button {
+  background-color: #ff844b;
+  padding: 0.75rem;
+  color: #fff9;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.4s all;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.pics-modal .button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pics-modal .button svg {
+  margin-right: 5px;
+  font-size: 1.3rem;
 }
 
 @media screen and (min-width: 1920px) {

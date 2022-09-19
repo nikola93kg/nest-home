@@ -14,16 +14,16 @@ function Contact() {
                         <h2>Kontaktirajte nas</h2>
                         <div className="contact-info">
                             <div className="location contact-content">
-                                <div class="info-icon"><span class="fa fa-map-marker"></span></div>
+                                <div class="info-icon"><span class="fas fa-map-marker-alt"></span></div>
                                 <div className="location-info">
                                     <h3>Lokacija</h3>
-                                    <a href="https://goo.gl/maps/xZif8g4NRhK8dqrg9" target="_blank">
+                                    <a href="https://goo.gl/maps/xZif8g4NRhK8dqrg9" target="_blank" rel="noreferrer">
                                         Bitoljska bb 14000 Valjevo
                                     </a>
                                 </div>
                             </div>
                             <div className="phone contact-content">
-                                <div class="info-icon"><span class="fa fa-phone"></span></div>
+                                <div class="info-icon"><span class="fas fa-mobile-alt"></span></div>
                                 <div className="phone-info">
                                     <h3>Telefon</h3>
                                     <a href="tel:+381 64 364 0213">
@@ -33,7 +33,7 @@ function Contact() {
                                 </div>
                             </div>
                             <div className="email contact-content">
-                                <div class="info-icon"><span class="fa fa-paper-plane"></span></div>
+                                <div class="info-icon"><span class="fas fa-envelope-open-text"></span></div>
                                 <div class="info-text">
                                     <h3>Email</h3>
                                     <a href="mailto:nesthomedoo@gmail.com">nesthomedoo@gmail.com</a>

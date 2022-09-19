@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import Apartments from '../components/Apartments'
-import Button from '../components/Button'
 import '../styles/Home.css'
 import MiddleSection from '../components/MiddleSection'
 import Carousel from '../components/Carousel'
@@ -14,12 +13,11 @@ function Home() {
         <>
             <HeroSection />
             <Apartments />
-            <MiddleSection heading='Lorem ipsum dolor sit amat' text='random text koji treba smisliti' />
+            <MiddleSection heading='Lorem ipsum dolor sit amat' text='lorem ipsum dolor sit amat' />
             <Carousel />
-            <MiddleSection heading='Želite da nas kontaktirate?' text='Pišite nam odmah!'
-                button={<Button className='btns home-btn' buttonStyle='btn--orange' buttonSize='btn--large'>
-                <Link to='contact'>Kontakt</Link>  </Button>}
-            />
+            <MiddleSection heading='Želite da nas kontaktirate?' text='Pišite nam odmah!'>
+                <Link className='contact-btn' to='contact'>Kontakt</Link>
+            </MiddleSection>
         </>
     )
 }

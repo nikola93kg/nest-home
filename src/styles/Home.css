@@ -12,3 +12,19 @@
   color: #fff;
   outline: 1px solid #d1964c;
 }
+.contact-btn {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px 26px;
+  transition: 0.3s all ease-out;
+  border: 1px solid #d1964c;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  background-color: #d1954c44;
+}
+.contact-btn:hover {
+  background-color: #d1964c;
+}

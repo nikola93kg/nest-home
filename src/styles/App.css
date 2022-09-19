@@ -40,15 +40,6 @@ body {
   min-height: calc(100vh - 80px);
 }
 
-.about {
-  /* background-image: url("/images/img-2.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #000;
-  font-size: 100px;
-}
-
 hr {
   width: 50% !important;
   margin-bottom: 50px !important;
