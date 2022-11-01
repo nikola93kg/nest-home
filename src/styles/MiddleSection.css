@@ -33,4 +33,11 @@
 .middle p {
   padding-bottom: 30px;
   font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .middle-section-text {
+    padding: 0 15px;
+  }
 }

@@ -20,6 +20,11 @@
   justify-content: center;
   text-align: center;
   margin: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  min-width: 300px;
 }
 .apartments__item .head {
   padding: 20px 0;
@@ -39,19 +44,61 @@
   margin: 10px;
   border-radius: 5px;
 }
-.apartments__item img {
-  width: 200px;
+
+.apartments__item .body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+.apartments-modal {
+  /* background: #beccbf; */
+  color: #0009;
+  border-radius: 5px;
+  width: 100%;
+  width: 300px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.apartments__item img {
+  width: 100% !important;
+  height: 100% !important;
   object-fit: scale-down;
 }
-.apartments__item .body {
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  padding: 20px;
-  border-radius: 5px;
+.modal-text {
+  color: #fff;
+}
+.modal-btn {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s all;
+}
+.modal-btn:hover {
+  color: #000;
+}
+.pics-modal {
+  /* margin-top: 20px; */
 }
 
-@media screen and (max-width: 768px) {
+.apartments__item .modal.open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apartments-modal-img {
+  height: 90% !important;
+  width: 90%;
+}
+.apartments__item .modal-text {
+  width: 70%;
+  font-size: 1.2rem;
+  margin: 0 0 50px 0;
+}
+
+@media screen and (max-width: 960px) {
   .apartments {
     width: 100%;
     max-width: fit-content;
@@ -60,7 +107,7 @@
     flex-direction: column;
   }
   .apartments__item {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .apartments__item .head p:last-child {
     width: 50%;
@@ -69,6 +116,13 @@
   .apartments__item .body {
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .apartments__item .apartments-modal {
+    width: 100%;
+    height: 100%;
   }
   .apartments__item img {
     width: 100% !important;
@@ -77,11 +131,9 @@
   }
 }
 
-@media screen and (max-width: 1536px) {
+@media screen and (min-width: 930px) {
   .apartments {
     padding: 120px 0 120px 0 !important;
-    /* padding: 100px 0 !important; */
-    /* border: 1px solid #f00; */
   }
   .apartments__item img {
     width: 170px;

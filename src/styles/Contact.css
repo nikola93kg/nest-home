@@ -109,19 +109,22 @@
   justify-content: center;
 }
 
-form button {
+.form-btn {
   font-size: 20px;
   border-radius: 5px;
   border: 0;
   transition: 0.5s linear;
   color: white;
-  font-size: inherit;
   float: right;
+  background-color: #d1954c44 !important;
+  width: 115px !important;
+  height: 50px !important;
+  padding-left: 0 !important;
 }
-form button:hover {
+.form-btn:hover {
   border: 1px solid #e49504;
+  background-color: #e49504 !important;
   transition: 0.5s linear;
-  color: black;
   cursor: pointer;
 }
 .formWord {
@@ -185,4 +188,12 @@ form button:hover {
   justify-content: center;
   align-items: center;
 }
+}
+
+.alert-msg {
+  background-color: #d1964c;
+  padding: 13px;
+  text-align: center;
+  color: #fff;
+  transition: 0.4s all;
 }

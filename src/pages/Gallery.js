@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import items from '../data'
+import items from '../store/data'
 import '../styles/Gallery.css'
 import Photos from '../components/Photos'
 import Categories from '../components/Categories'
@@ -9,7 +9,7 @@ const allCategories = [...new Set(items.map(item => item.category))]
 
 function Gallery() {
     const [photoItems, setPhotoItems] = useState(items)
-    const [categories, setCategories] = useState(allCategories)
+    const [categories] = useState(allCategories)
 
     const filterItems = (category) => {
         if (category === 'all') {
@@ -35,3 +35,5 @@ function Gallery() {
 }
 
 export default Gallery
+
+// ovo gde pise stan1 stan2 da se zameni i da stoji studio, jednosoban stan, dupleks1 i dupleks 2

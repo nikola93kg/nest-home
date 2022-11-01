@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
-import images from '../images'
+import images from '../store/images'
 import '../styles/Carousel.css'
 
 function Carousel() {
@@ -19,7 +19,7 @@ function Carousel() {
             whileTap={{
                 cursor: 'grabbing'
             }}>
-            <h1>Primeri enterijera</h1>
+            <h1>Projekti na kojima smo radili</h1>
             <hr />
             <motion.div drag='x' dragConstraints={{ right: 0, left: -width }} className="inner-carousel">
                 {images.map((image, index) => {
@@ -35,3 +35,5 @@ function Carousel() {
 }
 
 export default Carousel
+
+// OVDE IDE EKSTERIJER

@@ -1,7 +1,4 @@
-import React from 'react'
 import '../styles/Footer.css'
-import { Link } from 'react-router-dom'
-import logo from '../assets/img/logo-white.png'
 
 function Footer() {
     return (
@@ -23,18 +20,15 @@ function Footer() {
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="social-icons">
-                        <Link to="/" target='_blank' aria-label='Facebook' className="social-icon-link facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100085322523158" target='_blank' aria-label='Facebook' className="social-icon-link facebook">
                             <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link to="/" target='_blank' aria-label='Instagram' className="social-icon-link instagram">
+                        </a>
+                        <a href="https://www.instagram.com/nesthome2022/" target='_blank' aria-label='Instagram' className="social-icon-link instagram">
                             <i className="fab fa-instagram"></i>
-                        </Link>
-                        <Link to="/" target='_blank' aria-label='Twitter' className="social-icon-link twitter">
-                            <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link to="/" target='_blank' aria-label='Twitter' className="social-icon-link twitter">
+                        </a>
+                        <a href="#" target='_blank' aria-label='Twitter' className="social-icon-link twitter">
                             <i className="fab fa-linkedin"></i>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>

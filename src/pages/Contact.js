@@ -1,9 +1,38 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion'
-import Button from '../components/Button'
 import '../styles/Contact.css'
 
+const Result = () => {
+    return (
+        <div className="alert-msg">
+            <p>Poruka je uspešno poslata!</p>
+        </div>
+    ) 
+}
+
 function Contact() {
+
+    const [result, setResult] = useState(false);
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_ftnlqq8', 'template_8amrgek', form.current, 'RoFGIZ3_wHYZLNxfc')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+        setResult(true);
+    }
+
+    setTimeout(()=> {
+        setResult(false)
+    }, 3000)
+ 
     return (
         <>
             <motion.div className='contact' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
@@ -43,29 +72,30 @@ function Contact() {
                     </div>
                     <div className='contact-right'>
                         <h2>Pišite nam</h2>
-                        <form action="" onSubmit="" className='form'>
-                            <div class="formWord">
+                        <form ref={form} onSubmit={sendEmail} className='form'>
+                            <div className="formWord">
                                 <span>Ime i prezime</span>
                                 <br />
-                                <input class="input100" type="text" name="fullName" required />
+                                <input className="input100" type="text" name="fullName" required />
                                 <br />
                                 <span>Email adresa</span>
                                 <br />
-                                <input class="input100" type="email" name="email" required />
+                                <input className="input100" type="email" name="email" required />
                                 <br />
                                 <span>Naslov poruke</span>
                                 <br />
-                                <input class="input100" type="text" name="subject" required />
+                                <input className="input100" type="text" name="subject" required />
                                 <br />
                             </div>
-                            <div class="formWord">
+                            <div className="formWord">
                                 <span>Poruka</span>
                                 <br />
                                 <textarea name="message" required></textarea>
                                 <br />
-                                <Button className='btns form-btn' buttonStyle='btn--outline' buttonSize='btn--large'>Pošalji</Button>
+                                <input type="submit" value="Pošalji" className='btns form-btn' />
                             </div>
                         </form>
+                        {result ? <Result /> : null}
                     </div>
                 </div>
                 <div className='contact-maps'>

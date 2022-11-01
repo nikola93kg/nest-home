@@ -13,7 +13,7 @@ function Home() {
         <>
             <HeroSection />
             <Apartments />
-            <MiddleSection heading='Lorem ipsum dolor sit amat' text='lorem ipsum dolor sit amat' />
+            <MiddleSection heading='Mi smo drugačiji' text='idemo u korak sa vremenom i standardima koji objektima obezbeđuju najviši nivo opremljenosti' />
             <Carousel />
             <MiddleSection heading='Želite da nas kontaktirate?' text='Pišite nam odmah!'>
                 <Link className='contact-btn' to='contact'>Kontakt</Link>
