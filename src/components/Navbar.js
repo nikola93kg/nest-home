@@ -29,6 +29,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to='/realestate' className='nav-links' onClick={() => setClick(false)}>
+                                Nekretnine
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to='/about' className='nav-links' onClick={() => setClick(false)}>
                                 O nama
                             </Link>
@@ -38,12 +43,6 @@ function Navbar() {
                                 Kontakt
                             </Link>
                         </li>
-
-                        {/* <li className="nav-item">
-                            <Link to='/details' className='nav-links-mobile' onClick={() => setClick(false)}>
-                                Details
-                            </Link>
-                        </li> */}
                     </ul>
                 </div>
             </nav>

@@ -3,6 +3,7 @@ import '../styles/Apartments.css'
 import apartmentsData from '../store/apartmentsData'
 import { MdClose } from "react-icons/md";
 
+
 function Apartments() {
 
     const [modal, setModal] = useState(false);
@@ -42,6 +43,7 @@ function Apartments() {
                         )
                     })}
                 </div>
+                
             </div>
         </>
     )

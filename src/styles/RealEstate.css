@@ -1,0 +1,48 @@
+.realEstate-container {
+    padding-bottom: 0;
+}
+.ponuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+.ponuda a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.box {
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: 0.5s all;
+}
+.stanovi {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ), url(https://images.pexels.com/photos/144632/pexels-photo-144632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s all;
+}
+.stanovi p {
+   color: aliceblue;
+}
+
+.apartmani {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ), url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+}
