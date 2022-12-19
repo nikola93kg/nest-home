@@ -1,30 +1,42 @@
 .apartments {
   display: flex;
   flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
+  /* align-items: center; */
+  max-width: auto;
   width: 90%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0 50px 0 !important;
+}
+.slider-content {
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.slider-text {
+  width: 500px;
 }
 
 .apartments__container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .apartments__item {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 10px;
+  margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 10px;
   border-radius: 5px;
-  max-width: 300px;
+  max-width: 350px;
   min-width: 300px;
+  height: 450px;
 }
 .apartments__item .head {
   padding: 20px 0;
@@ -133,7 +145,7 @@
 
 @media screen and (min-width: 930px) {
   .apartments {
-    padding: 120px 0 120px 0 !important;
+    padding: 120px 0 120px 0;
   }
   .apartments__item img {
     width: 170px;
