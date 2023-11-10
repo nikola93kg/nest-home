@@ -5,3 +5,9 @@
     align-items: center;
     font-size: 5rem;
 }
+
+@media screen and (max-width: 930px) {
+    .housing {
+      font-size: 3rem;
+    }
+  }

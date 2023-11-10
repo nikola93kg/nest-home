@@ -1,51 +1,55 @@
 .slider {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 585px;
-  height: 380px;
-  background-image: linear-gradient(120deg, #fff, #0001);
+  width: 560px;
+  height: 490px;
+  overflow: hidden;
 }
+
+.slider-images {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 .slider img {
-  max-width: 585px;
-  max-height: 320px;
-  object-fit: contain;
   border-radius: 5px;
 }
-.right-arrow {
+.slider-image {
   position: absolute;
-  top: 50%;
-  right: 40px;
-  font-size: 2rem;
-  color: #fff5;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-  transition: 0.4s;
-}
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 40px;
-  font-size: 2rem;
-  color: #fff5;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-  transition: 0.4s;
-
-}
-:is(.right-arrow, .left-arrow):hover {
-  color: #fff;
-}
-
-.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
   opacity: 0;
-  transition-duration: 1s ease;
 }
-.slide.active {
+
+.slider-image.active {
   opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-controls button {
+  background: none;
+  border: none;
+  margin: 0 20px;
+}
+
+.slider-controls button svg {
+  font-size: 2rem;
+  border: none;
+  color: #fff6;
+  transition: 0.4s all;
+}
+
+.slider-controls button svg:hover {
+  color: #fff;
+  cursor: pointer;
 }
